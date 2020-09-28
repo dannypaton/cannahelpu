@@ -26,6 +26,7 @@
 
     .left,
     .right {
+      margin: 0 40px;
       width: calc(50% - 80px);
     }
 
@@ -64,10 +65,12 @@
         flex-direction: column;
       }
 
-      .left,
+      .left {
+        width: calc(100% - 40px);
+      }
+      
       .right {
-        margin: 0 40px;
-        width: calc(100% - 80px);
+        margin: 25px 40px 0;
       }
 
     }
